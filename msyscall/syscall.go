@@ -1,7 +1,8 @@
+//go:build linux
 // +build linux
 
 // msyscall is a package for the raw syscall handling for memfd_create
-// and related syscalls. Used by github.com/justincormack/go-memfd
+// and related syscalls. Used by github.com/loveyana/go-memfd
 package msyscall
 
 import (

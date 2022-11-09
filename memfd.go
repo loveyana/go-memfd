@@ -1,3 +1,4 @@
+//go:build linux
 // +build linux
 
 // Package memfd provides a Go library for working with Linux memfd memory file descriptors.
@@ -9,7 +10,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/justincormack/go-memfd/msyscall"
+	"github.com/loveyana/go-memfd/msyscall"
 )
 
 var (
